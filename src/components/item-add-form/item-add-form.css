@@ -1,0 +1,11 @@
+.item-add-form {
+  margin-top: 16px;
+}
+
+.ant-form-inline .ant-form-item.item-add-input {
+  flex: 1 0;
+}
+
+.ant-form-inline .ant-form-item.item-add-button {
+  margin-right: 0;
+}

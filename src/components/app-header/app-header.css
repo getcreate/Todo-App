@@ -1,0 +1,42 @@
+.app-header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  align-items:flex-end;
+}
+
+.app-header__title {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.app-header__title .ant-page-header-heading-sub-title {
+  margin-bottom: 4px;
+}
+
+.app-header__title .ant-page-header-heading-title {
+  font-size: 24px;
+  line-height: inherit;
+}
+
+.app-header__title h1 {
+  margin: 0;
+}
+
+@media screen and (min-width: 400px) {
+  .app-header__title {
+    
+  }
+}
+
+@media (max-width: 575px) {
+  .ant-col-filter .ant-radio-group {
+    margin-top: 16px;
+  }
+}
+
+.app-header__statistic {
+  display: flex;
+}

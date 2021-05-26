@@ -1,0 +1,18 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.ant-col-search {
+  margin-right: 16px;
+}
+
+.ant-form-horizontal .ant-form-item-control.ant-col-filter {
+  flex: none;
+}
+
+.statistic {
+  padding-left: 8px;
+  padding-right: 8px;
+}

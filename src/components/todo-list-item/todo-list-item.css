@@ -1,0 +1,18 @@
+.todo-list-item {
+  display: flex;
+  width: 100%;
+}
+
+.todo-list-item .ant-list-item-action {
+  padding-left: 8px;
+  margin-left: auto;
+}
+
+.todo-list-item.done {
+  text-decoration: line-through;
+}
+
+.todo-list-item.important {
+  font-weight: bold;
+  color: steelblue;
+}
